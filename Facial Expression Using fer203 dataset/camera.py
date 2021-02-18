@@ -3,7 +3,7 @@ from model import FacialExpressionModel
 import numpy as np
 
 facec = cv2.CascadeClassifier('haarcascade_frontalface_default.xml')
-model = FacialExpressionModel("model13.json", "model_weights13.h5")
+model = FacialExpressionModel("model_final.json", "model_final_weights.h5")
 font = cv2.FONT_HERSHEY_SIMPLEX
 
 class VideoCamera(object):
